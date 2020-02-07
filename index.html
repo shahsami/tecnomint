@@ -44,9 +44,7 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->  
+     
 
     <!-- Body main wrapper start -->
     <div class="wrapper black-bg text-white dark-version">
@@ -60,7 +58,7 @@
 						<div class="col-md-6 col-sm-7 col-xs-12">
 							<div class="header-left ptb-15">
 								<ul>
-									<li><span><i class="zmdi zmdi-phone"></i></span><a href="#">(+880) 1911590339</a></li>
+									<li><span><i class="zmdi zmdi-phone"></i></span><a href="#">(+880)1911590339</a></li>
 									<li><span><i class="zmdi zmdi-email"></i></span><a href="#">tecnomint@gmail.com</a></li>
 								</ul>
 							</div>
@@ -91,7 +89,7 @@
 			</div>
 			<!-- Header Top Area End -->
 			<!-- Header Menu Area Start -->
-			<div class="main-menu-area broder-top ptb-25" id="sticky-header">
+			<div class="main-menu-area broder-top ptb-10" id="sticky-header">
 				<div class="container">
 					<div class="row">
 						<!-- Logo Area -->
@@ -153,9 +151,11 @@
         <!-- End of header area -->
         <!-- Start of slider area -->
         <div class="slider-area">
-			<div id="slider" class="nivoSlider">
-				<img style ="display:none" src="images/slider/home-1/1.jpg"  data-thumb="images/slider/1.jpg"  alt="" title="#htmlcaption1"/>      
-				<img style ="display:none" src="images/slider/home-1/2.jpg"  data-thumb="images/slider/2.jpg"  alt="" title="#htmlcaption2"/>
+			<div id="slider" class="nivoSlider matrix">
+				<!-- <img style ="display:none" src="images/slider/home-1/1.jpg"  data-thumb="images/slider/1.jpg"  alt="" title="#htmlcaption1"/>      
+				<img style ="display:none" src="images/slider/home-1/2.jpg"  data-thumb="images/slider/2.jpg"  alt="" title="#htmlcaption2"/> -->
+
+				<canvas id="c"></canvas>
 			</div>
 			<div id="htmlcaption1" class="pos-slideshow-caption nivo-html-caption nivo-caption">
 				<div class="timing-bar"></div>
@@ -263,37 +263,7 @@
 					<!-- Speciality Image -->
 				</div>
 				<!-- About Content -->
-				<!-- Video Area Start -->
-				<div class="row pt-100 res-pt-xs-50">
-					<div class="col-md-6 col-sm-6">
-						<div class="video-area">
-							<div class="img">
-								<img src="images/other/video-bg.png" alt="" />
-								<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-									<i class="zmdi zmdi-play-circle-outline"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="video-content res-pt-xs-20">
-							<h6>a little bit of corplex story</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
-							<p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-						</div>
-						<!-- Social Icon -->
-						<div class="social-rotate pt-30 res-pt-10">
-							<ul>
-								<li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-								<li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-								<li><a href="#"><i class="zmdi zmdi-dribbble"></i></a></li>
-								<li><a href="#"><i class="zmdi zmdi-pinterest"></i></a></li>
-							</ul>
-						</div>
-						<!-- Social Icon -->
-					</div>
-				</div>
-				<!-- Video Area End -->
+				
 			</div>
         </section>
         <!-- About Area End -->
@@ -630,92 +600,7 @@
 			</div>
 		</section>
 		<!-- Client Testimonial Area End -->
-		<!-- Our Pricing Table Start -->
-		<section class="pricing-table ptb-100">
-			<div class="container">
-				<!-- Section Titel -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title text-center">
-							<h1>our pricing table</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation ullamco laboris nisi.</p>
-						</div>
-					</div>
-				</div>
-				<!-- Section Titel -->
-				<!-- Pricing Table Area -->
-				<div class="row pt-55">
-					<!-- Pricing table single -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 res-pb-xs-30">
-						<div class="pricing-table-single">
-							<div class="table-category text-center">
-								<h6>Silver pack</h6>
-								<h1>$30<span> / month</span></h1>
-							</div>
-							<div class="pricing-list text-center">
-								<ul>
-									<li><a href="#">250 MB storage</a></li>
-									<li><a href="#">100 email forwards</a></li>
-									<li><a href="#">200 My sqi datebase</a></li>
-									<li><a href="#">50 social account</a></li>
-									<li><a href="#">24/7 support</a></li>
-								</ul>
-							</div>
-							<div class="order-button text-uppercase text-center">
-								<a href="#">order now</a>
-							</div>
-						</div>
-					</div>
-					<!-- Pricing table single -->
-					<!-- Pricing table single -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 res-pb-xs-30">
-						<div class="pricing-table-single">
-							<div class="table-category text-center">
-								<h6>gold pack</h6>
-								<h1>$50<span> / month</span></h1>
-							</div>
-							<div class="pricing-list text-center">
-								<ul>
-									<li><a href="#">250 MB storage</a></li>
-									<li><a href="#">100 email forwards</a></li>
-									<li><a href="#">200 My sqi datebase</a></li>
-									<li><a href="#">50 social account</a></li>
-									<li><a href="#">24/7 support</a></li>
-								</ul>
-							</div>
-							<div class="order-button text-uppercase text-center">
-								<a href="#">order now</a>
-							</div>
-						</div>
-					</div>
-					<!-- Pricing table single -->
-					<!-- Pricing table single -->	
-					<div class="col-md-4 hidden-sm hidden-xs">
-						<div class="pricing-table-single">
-							<div class="table-category text-center">
-								<h6>platinum pack</h6>
-								<h1>$90<span> / month</span></h1>
-							</div>
-							<div class="pricing-list text-center">
-								<ul>
-									<li><a href="#">250 MB storage</a></li>
-									<li><a href="#">100 email forwards</a></li>
-									<li><a href="#">200 My sqi datebase</a></li>
-									<li><a href="#">50 social account</a></li>
-									<li><a href="#">24/7 support</a></li>
-								</ul>
-							</div>
-							<div class="order-button text-uppercase text-center">
-								<a href="#">order now</a>
-							</div>
-						</div>
-					</div>
-					<!-- Pricing table single -->
-				</div>
-				<!-- Pricing Table Area -->
-			</div>
-		</section>
-		<!-- Our Pricing Table End -->
+		
 		<!-- Brand Logo Area Start -->
 		<div class="brandlogo-area pb-100">
 			<div class="container">

@@ -641,7 +641,7 @@
   margin-bottom:0
 }
 .fotter-copyright p a {
-  color: #14b1bb;
+  color: #53FF2D;
 }
 /* -------------------------
    12. Home Two Css
@@ -1658,7 +1658,7 @@ p.error {
    30. ScrollUp
 ----------------------------*/
 #scrollUp {
-  background: #14b1bb none repeat scroll 0 0;
+  background: #53FF2D none repeat scroll 0 0;
   border-radius: 5px;
   bottom: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -1722,7 +1722,7 @@ p.error {
 .dark-version .breadcrumb-list .divider,
 .dark-version .adrs-details p,
 .dark-version .adrs-details ul li a{
-  color: #fff!important;
+  color: #53FF2D!important;
 }
 .dark-version .text-white h2,
 .dark-version .hvr-icon > p,
@@ -1738,8 +1738,8 @@ p.error {
 
 .matrix{
   width: 1920px;
-  height:630px;
-  background: green
+  height:600px;
+  background: black
 }
 
 /*basic reset*/
@@ -1747,3 +1747,7 @@ p.error {
 /*adding a black bg to the body to make things clearer*/
 body {background: black;}
 canvas {display: block;}
+
+.social-rotate .zmdi:hover {
+    color: #fff;
+}

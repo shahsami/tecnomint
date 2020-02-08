@@ -59,7 +59,7 @@
   text-transform: uppercase;
 }
 .pos_description .title2 .txt b {
-  color: #14b1bb;
+  color: #53FF2D;
 }
 .pos_description .pos-slideshow-readmore a {
   animation: 2000ms linear 0s normal none 1 running flipInX;
@@ -254,4 +254,8 @@
   left: 10%;
   top: 42%;
   width: 55%;
+}
+
+.social-rotate .zmdi:hover {
+    color: #fff;
 }

@@ -1,14 +1,4 @@
-/*
-	Template Name: Drubo
-    Template URI: https://devitems.com/html/drubo-preview/
-    Description: This is html5 template
-    Author: HasTech
-    Author URI: https://devitems.com/
-    Version: 1.0 
 
-	Note: This is Short code style file. All Short code related style included in this file. 
-
-*/
 /*================================================
 [  Table of contents  ]
 ================================================
@@ -161,7 +151,7 @@ label {
     02. Border Css
 ***********************/
 .broder{border:1px solid #ddd}
-.broder-top{border-top:1px solid #ddd}
+.broder-top{border-top:1px solid #000000}
 .broder-bottom{border-bottom:1px solid #ddd}
 .broder-left{border-left:1px solid #ddd}
 .broder-right{border-right:1px solid #ddd}

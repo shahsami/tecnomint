@@ -1,12 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Drubo
-    Template URI: https://devitems.com/html/drubo-preview/
-    Description: This is html5 template
-    Author: HasTech
-    Author URI: https://devitems.com/
-    Version: 1.0
-
+   
 -----------------------------------------------------------------------------------
     
     CSS INDEX
@@ -594,7 +588,7 @@
   margin-bottom: 25px;
 }
 .form-button button {
-  background: #5FED3E none repeat scroll 0 0;
+  background: #14B1BB none repeat scroll 0 0;
   border: medium none;
   box-shadow: none;
   color: #fff;
@@ -1738,7 +1732,7 @@ p.error {
 
 .matrix{
   width: 1920px;
-  height:625px;
+  height:605px;
   background: black
 }
 
@@ -1750,4 +1744,10 @@ canvas {display: block;}
 
 .social-rotate .zmdi:hover {
     color: #fff;
+}
+
+.section-title span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
 }

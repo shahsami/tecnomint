@@ -88,8 +88,8 @@
   font-weight: 700;
   margin: 0;
   overflow: hidden;
-  padding-left: 25px;
-  padding-top: 34px;
+    padding-left: 35px;
+    padding-top: 20px;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
@@ -1750,4 +1750,13 @@ canvas {display: block;}
     color: #fff;
     font-size: 30px;
     font-weight: 900;
+}
+
+.section-title-freatured h1 {
+    font-weight: 900;
+    color: lightgray;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    line-height: 1em;
+    font-size: 8em!important;
 }

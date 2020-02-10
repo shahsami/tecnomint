@@ -52,6 +52,23 @@
 .mobile-menu-area {
   display: none;
 }
+
+.service-single-bg-1{background-image: url("images/portfolio/1.jfif");}
+.service-single-bg-2{background-image: url("images/portfolio/2.jpg");}
+.service-single-bg-3{background-image: url("images/portfolio/3.jpg");}
+.service-single-bg-4{background-image: url("images/portfolio/5.jpg");}
+.service-single-bg-5{background-image: url("images/portfolio/4.jfif");}
+.service-single-bg-6{background-image: url("images/portfolio/6.jpg");}
+
+.hw-social .svg-inline {
+    font-size: 30px;
+}
+
+.hw-social.svg-inline--fa:hover {
+    color: #fff;
+    font-size: 30px;
+}
+
 .icon-titel {
   display: block;
   margin-bottom: 13px;
@@ -158,11 +175,18 @@
 -----------------------------*/
 .service-single {
   border: 1px solid #ddd;
-  border-radius: 5px;
-  height: 218px;
+  height: 550px;
   padding-top: 16%;
   position: relative;
 }
+
+.icon-titel h5 {
+    font-weight: 900;
+    margin-top: 5px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
 .srvc-icon i {
   color: #666666;
   font-size: 36px;
@@ -200,6 +224,10 @@
 .wework-social {
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
+}
+.p{
+  font-family: raleway;
 }
 .wework-social ul li {
   background: #fff none repeat scroll 0 0;
@@ -1731,7 +1759,6 @@ p.error {
 .dark-version .help-contact-area .section-title h1{color:#000!important;}
 
 .matrix{
-  width: 1920px;
   height:605px;
   background: black
 }
@@ -1760,3 +1787,4 @@ canvas {display: block;}
     line-height: 1em;
     font-size: 8em!important;
 }
+

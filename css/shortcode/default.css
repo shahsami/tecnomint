@@ -182,7 +182,7 @@ label {
 	padding: 0 20%;
 }
 .section-title .title-line { padding: 10px 0 }
-.section-title h1::before,.section-title h4::before {
+/*.section-title h1::before,.section-title h4::before {
   background: #eeeeee none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -205,7 +205,7 @@ label {
   position: absolute;
   right: 0;
   width: 60px;
-}
+}*/
 /*************************
     04. button
 *************************/

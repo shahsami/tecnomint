@@ -69,9 +69,9 @@
 	  slideSpeed:0,
 	  effect: 'random',
 	  pagination:false,
-	  navigation:true,  
+	  navigation:false,  
       items : 1,
-	  navigationText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+	  navigationText:["<i class='fas fa-angle-left'></i>","<i class='fas fa-angle-right'></i>"],
       itemsDesktop : [1199,1],
 	  itemsDesktopSmall : [980,1],
 	  itemsTablet: [768,1],
@@ -234,7 +234,7 @@
 	 12. scrollUp
 	---------------------------- */	
 	$.scrollUp({
-		scrollText: '<i class="fa fa-angle-up"></i>',
+		scrollText: '<i class="fas fa-angle-double-up"></i>',
 		easingType: 'linear',
 		scrollSpeed: 900,
 		animation: 'fade'
@@ -244,7 +244,7 @@
 	---------------------------- */	
 	$(window).on('scroll',function() {    
 	   var scroll = $(window).scrollTop();
-	   if (scroll < 245) {
+	   if (scroll < 200) {
 		$("#sticky-header").removeClass("sticky");
 	   }else{
 		$("#sticky-header").addClass("sticky");

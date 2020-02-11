@@ -60,14 +60,33 @@
 .service-single-bg-5{background-image: url("images/portfolio/4.jfif");}
 .service-single-bg-6{background-image: url("images/portfolio/6.jpg");}
 
-.hw-social .svg-inline {
+.hw-icon {
     font-size: 30px;
 }
 
-.hw-social.svg-inline--fa:hover {
+.hw-icon:hover {
     color: #fff;
-    font-size: 30px;
 }
+
+.button5 {
+    display: inline-block;
+    padding: .8em 1.6em;
+    border: .2em solid #fff;
+    margin: 0 .2em .2em 0;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 0.04em .04em rgba(0,0,0,.35);
+    text-align: center;
+    transition: all .5s;
+}
+
+.button5:hover {
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+}
+
+
 
 .icon-titel {
   display: block;
@@ -260,8 +279,8 @@
   color: #383838;
   display: block;
   font-family: raleway;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 800;
   text-align: center;
   transition:.5s;
 }

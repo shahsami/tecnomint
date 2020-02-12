@@ -228,7 +228,7 @@
 			$this.val(Math.ceil(this.value)).trigger('change');
 		  }
 		});
-	  }, {accX: 0, accY: -150});
+	  }, {accX: 0, accY: -130});
 	});
 	/*--------------------------
 	 12. scrollUp

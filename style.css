@@ -298,7 +298,7 @@
   border-width: 1px medium 1px 1px;
   color: #383838;
   cursor: pointer;
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: 700;
   margin-left: -4px;
@@ -1502,7 +1502,7 @@ p.error {
   border-radius: 5px;
   color: #383838;
   display: block;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 18px;
   margin-right: 5px;
   padding: 10px 20px;
@@ -1590,7 +1590,7 @@ p.error {
 }
 .dicrobe-content blockquote p {
   color: #666666;
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 600;
   line-height: 30px;
@@ -1811,7 +1811,7 @@ canvas {display: block;}
     text-transform: uppercase;
     margin: 0 0 5px;
     line-height: 1em;
-    font-size: 8em!important;
+    font-size: 10vw;
 }
 
 .weare-freatured h1 {
@@ -1820,7 +1820,7 @@ canvas {display: block;}
     text-transform: uppercase;
     margin: 0 0 5px;
     line-height: 1em;
-    font-size: 8em!important;
+    font-size: 10vw;
 }
 
 
@@ -1923,6 +1923,8 @@ img{
 
 
   /*Animated Service Area*/
+
+
 
   
 

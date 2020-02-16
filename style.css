@@ -312,7 +312,7 @@
 .portfolio-menu li.active, .portfolio-menu li:hover {
   background: #53FF2D none repeat scroll 0 0;
   border-color: #53FF2D;
-  color: #fff;
+  color: #383838;
 }
 .image-box::after {
   background: #53FF2D none repeat scroll 0 0;
@@ -1770,7 +1770,7 @@ p.error {
 .dark-version .breadcrumb-list .divider,
 .dark-version .adrs-details p,
 .dark-version .adrs-details ul li a{
-  color: #53FF2D!important;
+  color: #ffff!important;
 }
 .dark-version .text-white h2,
 .dark-version .hvr-icon > p,
